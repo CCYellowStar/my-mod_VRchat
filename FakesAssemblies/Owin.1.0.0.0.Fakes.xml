@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Owin.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Owin.Fakes.StubIAppBuilder">
+            <summary>Owin.IAppBuilder 的存根类型</summary>
+        </member>
+        <member name="M:Owin.Fakes.StubIAppBuilder.#ctor">
+            <summary>初始化 type StubIAppBuilder 的新实例</summary>
+        </member>
+        <member name="F:Owin.Fakes.StubIAppBuilder.BuildType">
+            <summary>设置 IAppBuilder.Build(Type returnType) 的 stub</summary>
+        </member>
+        <member name="F:Owin.Fakes.StubIAppBuilder.New">
+            <summary>设置 IAppBuilder.New() 的 stub</summary>
+        </member>
+        <member name="M:Owin.Fakes.StubIAppBuilder.Owin#IAppBuilder#Build(System.Type)">
+            <summary>设置 IAppBuilder.Build(Type returnType) 的 存根</summary>
+        </member>
+        <member name="M:Owin.Fakes.StubIAppBuilder.Owin#IAppBuilder#New">
+            <summary>设置 IAppBuilder.New() 的 存根</summary>
+        </member>
+        <member name="M:Owin.Fakes.StubIAppBuilder.Owin#IAppBuilder#Use(System.Object,System.Object[])">
+            <summary>设置 IAppBuilder.Use(Object middleware, Object[] args) 的 存根</summary>
+        </member>
+        <member name="P:Owin.Fakes.StubIAppBuilder.Owin#IAppBuilder#Properties">
+            <summary>设置 IAppBuilder.get_Properties() 的 stub</summary>
+        </member>
+        <member name="F:Owin.Fakes.StubIAppBuilder.PropertiesGet">
+            <summary>设置 IAppBuilder.get_Properties() 的 stub</summary>
+        </member>
+        <member name="F:Owin.Fakes.StubIAppBuilder.UseObjectObjectArray">
+            <summary>设置 IAppBuilder.Use(Object middleware, Object[] args) 的 stub</summary>
+        </member>
+    </members>
+</doc>
